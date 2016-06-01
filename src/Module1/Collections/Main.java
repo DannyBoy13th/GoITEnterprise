@@ -15,40 +15,40 @@ public class Main {
         FileSaver fileSaver = new FileSaver();
 
         String textToPrint;
-        textToPrint = "COLLECTIONS analysis :";
+        textToPrint = "COLLECTIONS analysis : \n\n";
 
         System.out.println(textToPrint);
         fileSaver.write("CollectionsTest.txt", textToPrint);
-        textToPrint = String.format("%-15s%-8s%-12s%-12s%-12s%-12s%-12s%-15s%-15s%n",
+        textToPrint = String.format("%-15s%-15s%-15s%-15s%-15s%-15s%-15s%-15s%-15s%n",
                 "|Collection", "|size", "|add", "|get", "|remove", "|contains", "|populate", "|iterator.add", "|iterator.remove");
         System.out.print(textToPrint);
         fileSaver.update("CollectionsTest.txt", textToPrint);
 
-        textToPrint = "__________________________________________________________________________________________________________________";
+        textToPrint = "_________________________________________________________________________________________________________________________________________";
         System.out.println(textToPrint);
         fileSaver.update("CollectionsTest.txt", textToPrint);
 
         arrayListLoader.loader();
 
-        textToPrint = "__________________________________________________________________________________________________________________";
+        textToPrint = "_________________________________________________________________________________________________________________________________________";
         System.out.println(textToPrint);
         fileSaver.update("CollectionsTest.txt", textToPrint);
 
         linkedListLoader.loader();
 
-        textToPrint = "__________________________________________________________________________________________________________________";
+        textToPrint = "_________________________________________________________________________________________________________________________________________";
         System.out.println(textToPrint);
         fileSaver.update("CollectionsTest.txt", textToPrint);
 
         hashSetLoader.loader();
 
-        textToPrint = "__________________________________________________________________________________________________________________";
+        textToPrint = "_________________________________________________________________________________________________________________________________________";
         System.out.println(textToPrint);
         fileSaver.update("CollectionsTest.txt", textToPrint);
 
         treeSetLoader.loader();
 
-        textToPrint = "__________________________________________________________________________________________________________________";
+        textToPrint = "_________________________________________________________________________________________________________________________________________";
         System.out.println(textToPrint);
         fileSaver.update("CollectionsTest.txt", textToPrint);
 

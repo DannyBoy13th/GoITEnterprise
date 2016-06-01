@@ -44,15 +44,15 @@ public class ArrayListLoader extends Methods{
 
         String textToFile;
 
-        textToFile = String.format("%-15s%-8s%-12s%-12s%-12s%-12s%-12s%-15s%-15s%n", "|ArrayList", "|10K", timeForAdd10k, timeForGet10k, timeForRemove10k, timeForContains10k,timeForPopulate10k, timeForIteratorAdd10k, timeForIteratorRemove10k);
+        textToFile = String.format("%-15s%-15s%-15s%-15s%-15s%-15s%-15s%-15s%-15s%n", "|ArrayList", "|10K", timeForAdd10k, timeForGet10k, timeForRemove10k, timeForContains10k,timeForPopulate10k, timeForIteratorAdd10k, timeForIteratorRemove10k);
         System.out.println(textToFile);
         fileSaver.update("CollectionsTest.txt", textToFile);
 
-        textToFile = String.format("%-15s%-8s%-12s%-12s%-12s%-12s%-12s%-15s%-15s%n", "", "|100K", timeForAdd100k, timeForGet100k, timeForRemove100k, timeForContains100k,timeForPopulate100k, timeForIteratorAdd100k, timeForIteratorRemove100k);
+        textToFile = String.format("%-15s%-15s%-15s%-15s%-15s%-15s%-15s%-15s%-15s%n", "", "|100K", timeForAdd100k, timeForGet100k, timeForRemove100k, timeForContains100k,timeForPopulate100k, timeForIteratorAdd100k, timeForIteratorRemove100k);
         System.out.println(textToFile);
         fileSaver.update("CollectionsTest.txt", textToFile);
 
-        textToFile = String.format("%-15s%-8s%-12s%-12s%-12s%-12s%-12s%-15s%-15s%n", "", "|1000K", timeForAdd1000k, timeForGet1000k, timeForRemove1000k, timeForContains1000k,timeForPopulate1000k, timeForIteratorAdd1000k, timeForIteratorRemove1000k);
+        textToFile = String.format("%-15s%-15s%-15s%-15s%-15s%-15s%-15s%-15s%-15s%n", "", "|1000K", timeForAdd1000k, timeForGet1000k, timeForRemove1000k, timeForContains1000k,timeForPopulate1000k, timeForIteratorAdd1000k, timeForIteratorRemove1000k);
         System.out.println(textToFile);
         fileSaver.update("CollectionsTest.txt", textToFile);
     }

@@ -37,15 +37,15 @@ public class HashSetLoader extends Methods {
 
         String textToFile;
 
-        textToFile = String.format("%-15s%-8s%-12s%-12s%-12s%-12s%-12s%-15s%-15s%n", "|HashSet", "|10K", timeForAdd10k, timeForGet10k, timeForRemove10k, timeForContains10k,timeForPopulate10k, "-", "-");
+        textToFile = String.format("%-15s%-15s%-15s%-15s%-15s%-15s%-15s%-15s%-15s%n", "|HashSet", "|10K", timeForAdd10k, timeForGet10k, timeForRemove10k, timeForContains10k,timeForPopulate10k, "-", "-");
         System.out.println(textToFile);
         fileSaver.update("CollectionsTest.txt", textToFile);
 
-        textToFile = String.format("%-15s%-8s%-12s%-12s%-12s%-12s%-12s%-15s%-15s%n", "", "|100K", timeForAdd100k, timeForGet100k, timeForRemove100k, timeForContains100k,timeForPopulate100k, "-", "-");
+        textToFile = String.format("%-15s%-15s%-15s%-15s%-15s%-15s%-15s%-15s%-15s%n", "", "|100K", timeForAdd100k, timeForGet100k, timeForRemove100k, timeForContains100k,timeForPopulate100k, "-", "-");
         System.out.println(textToFile);
         fileSaver.update("CollectionsTest.txt", textToFile);
 
-        textToFile = String.format("%-15s%-8s%-12s%-12s%-12s%-12s%-12s%-15s%-15s%n", "", "|1000K", timeForAdd1000k, timeForGet1000k, timeForRemove1000k, timeForContains1000k,timeForPopulate1000k, "-", "-");
+        textToFile = String.format("%-15s%-15s%-15s%-15s%-15s%-15s%-15s%-15s%-15s%n", "", "|1000K", timeForAdd1000k, timeForGet1000k, timeForRemove1000k, timeForContains1000k,timeForPopulate1000k, "-", "-");
         System.out.println(textToFile);
         fileSaver.update("CollectionsTest.txt", textToFile);
     }
