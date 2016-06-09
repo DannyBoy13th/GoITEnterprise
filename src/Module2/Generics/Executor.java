@@ -25,4 +25,5 @@ public interface Executor <T>{
     // Получить невалидные результаты. Бросает Эксепшн если не был вызван метод execute()
     List <T> getInvalidResults() throws Exception;
 
+
 }
