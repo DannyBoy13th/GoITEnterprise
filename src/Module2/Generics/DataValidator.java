@@ -7,6 +7,7 @@ public class DataValidator implements Validator<Number> {
 
     @Override
     public boolean isValid(Number result) {
-        return result.intValue() <=0;
+            boolean num = (result != null) && (result.longValue()%2==0);
+            return num;
     }
 }
