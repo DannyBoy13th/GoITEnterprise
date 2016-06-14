@@ -1,4 +1,4 @@
-package Semaphore;
+package Module3.Semaphore;
 
 /**
  * Created by Daniel Solo on 15.06.2016.
