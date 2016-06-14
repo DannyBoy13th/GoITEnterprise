@@ -5,7 +5,7 @@ package Module3.Semaphore;
  */
 public interface SemaphoreInt {
 
-    public void acquire();
+    public void acquire() throws InterruptedException;
 
     public void acquire(int permits);
 
