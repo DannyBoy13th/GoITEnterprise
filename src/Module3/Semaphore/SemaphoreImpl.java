@@ -5,6 +5,9 @@ package Module3.Semaphore;
  */
 public class SemaphoreImpl implements SemaphoreInt {
 
+    private int maxPermits;
+    private final Object lock = new Object();
+    private volatile int permits;
 
 
     @Override
